@@ -1,0 +1,37 @@
+xinput_name: kamvas-pen
+vendor_id: 0x256c
+product_id: 0x006d
+pen:
+    max_x: 58752
+    max_y: 33048
+    max_pressure: 8191
+    max_tilt_x: 60
+    max_tilt_y: 60
+    resolution: 5080
+
+# User preferences
+default_display: DP-1-1
+default_action: draw_on_screen
+actions:
+    draw_on_screen:
+        pen_touch: BTN_TOUCH
+        pen_button_1: ''
+        pen_button_1_touch: KEY_LEFTSHIFT+BTN_TOUCH
+        pen_button_2: 'BTN_RIGHT'
+        pen_button_2_touch: ''
+        tablet_buttons:
+            - 'KEY_LEFTSHIFT+KEY_LEFTCTRL+KEY_Z'
+            - 'KEY_LEFTCTRL+KEY_Z'
+            - 'KEY_LEFTALT+KEY_LEFTMETA+KEY_E'
+            - 'KEY_LEFTCTRL+KEY_LEFTALT+KEY_LEFTMETA+KEY_D'
+            - 'KEY_LEFTALT+KEY_LEFTMETA+KEY_D'
+        tablet_scrollbar_increase: KEY_LEFTCTRL+KEY_KPMINUS
+        tablet_scrollbar_decrease: KEY_LEFTCTRL+KEY_KPPLUS
+        tablet_scrollbar:
+            - ''
+            - ''
+            - ''
+            - ''
+            - ''
+            - ''
+            - ''
